@@ -3,7 +3,7 @@ HOMEPAGE = "http://www.gnu.org/software/gnutls/"
 DEPENDS = "zlib libgcrypt lzo"
 LICENSE = "LGPL"
 
-SRC_URI = "ftp://ftp.gnutls.org/pub/gnutls/gnutls-${PV}.tar.bz2"
+SRC_URI = "file://gnutls-${PV}.tar.bz2"
 
 inherit autotools binconfig pkgconfig
 
