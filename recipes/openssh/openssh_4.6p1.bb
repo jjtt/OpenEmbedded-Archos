@@ -16,7 +16,7 @@ HOMEPAGE = "http://www.openssh.org/"
 LICENSE = "BSD"
 PR = "r6"
 
-SRC_URI = "ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/openssh-${PV}.tar.gz \
+SRC_URI = "file://openssh-${PV}.tar.gz \
            file://sftp-server-nolibcrypto.patch;patch=1 \
            file://sshd_config \
 	   file://ssh_config \

@@ -11,7 +11,7 @@ RRECOMMENDS_avahi-daemon_append_linux = "libnss-mdns"
 RDEPENDS_avahi-daemon += "sysvinit-pidof update-rc.d"
 RDEPENDS_avahi-autoipd += "update-rc.d"
 
-SRC_URI = "http://avahi.org/download/avahi-${PV}.tar.gz \
+SRC_URI = "file://avahi-${PV}.tar.gz \
 	   file://00avahi-autoipd file://99avahi-autoipd"
 
 inherit autotools pkgconfig update-rc.d
