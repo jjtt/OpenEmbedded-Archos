@@ -30,3 +30,13 @@ opkg svn repo in google code is no longer available. Use the tar
 opkg-svn.tar.bz2 to create a local svn repo somewhere and edit opkg.inc to
 match
 
+
+== Additional notes ==
+
+* After built, the images are in: tmp/deploy/glibc/images/archos-gen8
+* images must be renamed when copying to device:
+ * zImage
+ * initramfs.cpio.gz
+ * rootfs.img
+* kernel & initramfs: Developer Edition Menu -> Flash kernel and initramfs
+* rootfs: Repair System -> Start USB MSC
