@@ -33,6 +33,7 @@ match
 
 == Additional notes ==
 
+* Requires 32-bit Ubuntu 12.04
 * After built, the images are in: tmp/deploy/glibc/images/archos-gen8
 * images must be renamed when copying to device:
  * zImage
