@@ -2,7 +2,7 @@ require busybox.inc
 PR = "r15"
 
 SRC_URI = "\
-  http://www.busybox.net/downloads/busybox-${PV}.tar.gz \
+  file://busybox-${PV}.tar.bz2 \
   \
   file://udhcpscript.patch;patch=1 \
   file://B921600.patch;patch=1 \
