@@ -2,7 +2,7 @@ require busybox.inc
 PR = "r18"
 
 SRC_URI = "\
-  file://busybox-${PV}.tar.gz \
+  file://busybox-${PV}.tar.bz2 \
   file://busybox-1.13.2-awk.patch;patch=1 \
   file://busybox-1.13.2-depmod.patch;patch=1 \
   file://busybox-1.13.2-init.patch;patch=1 \
