@@ -7,7 +7,7 @@ PROVIDES = "ssh sshd"
 RPROVIDES = "ssh sshd"
 
 SRC_URI = "\
-  http://matt.ucc.asn.au/dropbear/dropbear-${PV}.tar.bz2 \
+  file://dropbear-${PV}.tar.bz2 \
   file://urandom-xauth-changes-to-options.h.patch;patch=1 \
   file://configure.patch;patch=1 \
   file://fix-2kb-keys.patch;patch=1 \
