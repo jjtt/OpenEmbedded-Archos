@@ -19,3 +19,14 @@ You may find some useful information here:
 - http://wiki.openembedded.net/index.php/Main_Page
 - http://www.pokylinux.org/releases/pinky-3.1/doc/poky-handbook.html
 - http://www.openaos.org/
+
+
+
+
+
+== HACKS ==
+
+opkg svn repo in google code is no longer available. Use the tar
+opkg-svn.tar.bz2 to create a local svn repo somewhere and edit opkg.inc to
+match
+

@@ -5,7 +5,7 @@ LICENSE = "GPL"
 DEPENDS = "curl gpgme"
 PV = "0.1.6+svnr${SRCREV}"
 
-SRC_URI = "file://opkg-0.1.7.tar.bz2 \
+SRC_URI = "svn:///home/a/svn/opkg;module=trunk;proto=file \
 	file://opkg_unarchive.patch;patch=1;maxrev=201"
 S = "${WORKDIR}/trunk"
 

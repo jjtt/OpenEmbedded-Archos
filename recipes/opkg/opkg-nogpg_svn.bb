@@ -11,7 +11,7 @@ EXTRA_OECONF += "--disable-gpg"
 
 # The nogpg version isn't getting much love and has an unused variable which trips up -Werror
 do_configure_prepend() {
-	#sed -i -e s:-Werror::g ${S}/libopkg/Makefile.am
+	sed -i -e s:-Werror::g ${S}/libopkg/Makefile.am
 }
 
 DEFAULT_PREFERENCE = "-1"
